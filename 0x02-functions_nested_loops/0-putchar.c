@@ -1,18 +1,20 @@
 #include "main.h"
 
 /**
- *  * _isupper - checks if parameter is an uppercase character.
- *   * @c: input character.
- *    * Return: 1 if is an uppercase character, 0 in other case.
- *     */
-int _isupper(int c)
+ * main - prints _putchar and a new line
+ * Return: Always 0
+ */
+int main(void)
 {
-	if (c >= 65 && c <= 90)
-	{
-		return (1);
-	}
-	else
-	{
-		return (0);
-	}
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+
+	return (0);
 }
